@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012A80FC0547BF4572125598 /* StudyLimiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9457E8221895FD8FC7537 /* StudyLimiterTests.swift */; };
+		16F1DC6B1C8F1D3D3F8992C1 /* CardDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFE1C769EB8342CD38C14 /* CardDefinition.swift */; };
+		1AED6823520A0C41B81E0DE5 /* DeckSchemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E406BBA6D21EDA4313A1134 /* DeckSchemaTests.swift */; };
+		1EABACA9FEB4B3480786F49F /* LearnCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6777CC5ED2A6548FA4CDE /* LearnCardView.swift */; };
+		232FE5354B43DC4F0BA7A19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5C0464D965944AD846532A /* Assets.xcassets */; };
+		25ABFF6D437855CFECDF5941 /* deck-manner.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A31EE1AF21D95F899F40C8E /* deck-manner.json */; };
+		28EB2E78D61E125A8FCB86AF /* LearnFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BCCF9C3020A9AD1F2402D /* LearnFlowUITests.swift */; };
+		304DFA1AF99DE7CDAF79E8F7 /* DeckRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1934EC7B0CEE1164D77BC31B /* DeckRepository.swift */; };
+		30FE4DE67A18B61946ABAF48 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAAA92B8978F00C6FAC36D /* PaywallView.swift */; };
+		321C7B0F010825F5B1281EE7 /* deck-jitsumu.json in Resources */ = {isa = PBXBuildFile; fileRef = F8ADA7778C1210DD813D4527 /* deck-jitsumu.json */; };
+		3220D0A71343C0DCEFA51AA8 /* HintImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E1D7E44E4F16B57538FC8 /* HintImageView.swift */; };
+		3262B5575675A6371BD8FB00 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9F10ADB482A976B0DC3FA /* SettingsView.swift */; };
+		3993D71C7DEBCC3D070C1ED0 /* HintTemplatePreviewExportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417651A62F6C920545F54E8 /* HintTemplatePreviewExportTests.swift */; };
+		3C02E8692DF7B2447DF4EF64 /* CardProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817197D613C796275C55837 /* CardProgress.swift */; };
+		3C265C4A782C0134D8775AE7 /* ProductIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06CE0FEDA642C901436B01C /* ProductIDs.swift */; };
+		4EB8C6A4B0C5A01BF23FAF25 /* FlameShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA1EDA62D091F2219E2F0B /* FlameShape.swift */; };
+		4F7D48FAF0B76653A39E5A79 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CD3CAD06CF569230BFC87 /* Scheduler.swift */; };
+		5BF291AA01F048F056A0822B /* FactsCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789619E17A4C269CBC1A820 /* FactsCatalog.swift */; };
+		696D7BF05887397BE4A43092 /* LearnFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AD183360748562A49CE77 /* LearnFlowView.swift */; };
+		6CB82B5194A93FD72384E97D /* DeckCompatibilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676925C9B6967719F182A221 /* DeckCompatibilityTests.swift */; };
+		70288294B69EAFF1FE277F46 /* HintTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E996130C387E32157C1535 /* HintTemplates.swift */; };
+		7312092B02BAFB893523101A /* CardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2988752DA0B6DB1A88CF75E /* CardTheme.swift */; };
+		7972505954976B48A0E6A4F6 /* deck-keigo.json in Resources */ = {isa = PBXBuildFile; fileRef = 14F8313176E9DB99E5DCB29B /* deck-keigo.json */; };
+		7976F74FC0DAEAE9C1A81D93 /* facts.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D539F7A4D50A4EB7309A423 /* facts.json */; };
+		81F5E942AF8DB851EE34F723 /* ExamPace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5813EA25C8369ECEE6A20842 /* ExamPace.swift */; };
+		822C9CEF59B21717D70D5E96 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D25C811E4B3A0E15C4051 /* RootView.swift */; };
+		8483BC0F40964A4BB8E19FCA /* StudyQueueBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131279155028FE4DFE788731 /* StudyQueueBuilderTests.swift */; };
+		86956BA1241FD1BF254B91D9 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D464AB675CCA1D2FABE9BFA /* TodayView.swift */; };
+		881F76CC63DCB94699D9BCA1 /* StudyLimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3152799C7D9F702D57153A4 /* StudyLimiter.swift */; };
+		89FEDC6CA5A732BFB55FBC0E /* FactsCrossCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF43360D94BBE00EFA1F699 /* FactsCrossCheckTests.swift */; };
+		8C354ACFA19BBD96035E389B /* DeckLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDC69D8337C0216C1C2B4A /* DeckLoader.swift */; };
+		8ECE9A757F80B3893CB1AF3B /* StudyQueueBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E92DF7D7444ABBFA3CFB79 /* StudyQueueBuilder.swift */; };
+		996FE3B4AA7BDE2051FFAA0B /* HishoCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B817574B1A4672DB12AC31 /* HishoCardApp.swift */; };
+		B16CDE883314E02895A4642B /* HintStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91291944F11C9119A1D407 /* HintStateMachine.swift */; };
+		BA73D9CEBBD9A193D1E94521 /* EntitlementStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F818FD6EEBB865883617AC9F /* EntitlementStore.swift */; };
+		C6FDF0048611848C503FD22C /* AppSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC845AA7E03074C46F752 /* AppSettingsStore.swift */; };
+		C9DE3EF0A45DBC6A8CB31FF4 /* StoreScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3616510766C14FA69DC1599D /* StoreScreenshotTests.swift */; };
+		CA00F3D82CFC474F40BD918C /* HintStateMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604C1DF9FB552343AB76D6F /* HintStateMachineTests.swift */; };
+		CB3D9894E949A98DBC55D0CA /* DeckValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E9941BDC1ACF7B6BFC375 /* DeckValidator.swift */; };
+		ECB11AC4684133FCB2AE1166 /* SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764F1DC29D0D38B392D17C7C /* SchedulerTests.swift */; };
+		F1C2645A32773382E59CE5C6 /* ProgressHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299717C6D3F0DB287DFF527 /* ProgressHomeView.swift */; };
+		F1D84FCC05552E6AE45E2052 /* ExamPaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EED016A7895FA7298EEE4F /* ExamPaceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40024634606D3FC5CE07A492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968E0FA3FEFC0D87AC480763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3BD710BFFA567AEAAB01DDA;
+			remoteInfo = HishoCard;
+		};
+		B177302317D6002AF2324B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968E0FA3FEFC0D87AC480763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3BD710BFFA567AEAAB01DDA;
+			remoteInfo = HishoCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025AC845AA7E03074C46F752 /* AppSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsStore.swift; sourceTree = "<group>"; };
+		04B817574B1A4672DB12AC31 /* HishoCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HishoCardApp.swift; sourceTree = "<group>"; };
+		0E5C0464D965944AD846532A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		131279155028FE4DFE788731 /* StudyQueueBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQueueBuilderTests.swift; sourceTree = "<group>"; };
+		14F8313176E9DB99E5DCB29B /* deck-keigo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-keigo.json"; sourceTree = "<group>"; };
+		1817197D613C796275C55837 /* CardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgress.swift; sourceTree = "<group>"; };
+		1934EC7B0CEE1164D77BC31B /* DeckRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckRepository.swift; sourceTree = "<group>"; };
+		1A3BCCF9C3020A9AD1F2402D /* LearnFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnFlowUITests.swift; sourceTree = "<group>"; };
+		1BAAAA92B8978F00C6FAC36D /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		1CF43360D94BBE00EFA1F699 /* FactsCrossCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsCrossCheckTests.swift; sourceTree = "<group>"; };
+		2D1E1D7E44E4F16B57538FC8 /* HintImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintImageView.swift; sourceTree = "<group>"; };
+		31EED016A7895FA7298EEE4F /* ExamPaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPaceTests.swift; sourceTree = "<group>"; };
+		3616510766C14FA69DC1599D /* StoreScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreScreenshotTests.swift; sourceTree = "<group>"; };
+		3D91291944F11C9119A1D407 /* HintStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintStateMachine.swift; sourceTree = "<group>"; };
+		3E406BBA6D21EDA4313A1134 /* DeckSchemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckSchemaTests.swift; sourceTree = "<group>"; };
+		3FB6777CC5ED2A6548FA4CDE /* LearnCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCardView.swift; sourceTree = "<group>"; };
+		5813EA25C8369ECEE6A20842 /* ExamPace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPace.swift; sourceTree = "<group>"; };
+		676925C9B6967719F182A221 /* DeckCompatibilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckCompatibilityTests.swift; sourceTree = "<group>"; };
+		6EBA1EDA62D091F2219E2F0B /* FlameShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlameShape.swift; sourceTree = "<group>"; };
+		72B9F10ADB482A976B0DC3FA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		755D25C811E4B3A0E15C4051 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		764F1DC29D0D38B392D17C7C /* SchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerTests.swift; sourceTree = "<group>"; };
+		7A31EE1AF21D95F899F40C8E /* deck-manner.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-manner.json"; sourceTree = "<group>"; };
+		7D539F7A4D50A4EB7309A423 /* facts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = facts.json; sourceTree = "<group>"; };
+		8D464AB675CCA1D2FABE9BFA /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		98BDC69D8337C0216C1C2B4A /* DeckLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckLoader.swift; sourceTree = "<group>"; };
+		9A2CD3CAD06CF569230BFC87 /* Scheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		A10E9941BDC1ACF7B6BFC375 /* DeckValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckValidator.swift; sourceTree = "<group>"; };
+		B038CAADC85CB5FA8AD078E8 /* HishoCardUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HishoCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2988752DA0B6DB1A88CF75E /* CardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTheme.swift; sourceTree = "<group>"; };
+		BDE9457E8221895FD8FC7537 /* StudyLimiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyLimiterTests.swift; sourceTree = "<group>"; };
+		C417651A62F6C920545F54E8 /* HintTemplatePreviewExportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTemplatePreviewExportTests.swift; sourceTree = "<group>"; };
+		C604C1DF9FB552343AB76D6F /* HintStateMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintStateMachineTests.swift; sourceTree = "<group>"; };
+		DD9FA63388058C088F766E8D /* HishoCard.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HishoCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7AD183360748562A49CE77 /* LearnFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnFlowView.swift; sourceTree = "<group>"; };
+		E06CE0FEDA642C901436B01C /* ProductIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductIDs.swift; sourceTree = "<group>"; };
+		E0E92DF7D7444ABBFA3CFB79 /* StudyQueueBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQueueBuilder.swift; sourceTree = "<group>"; };
+		E0F6779B756A5880C1914E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E299717C6D3F0DB287DFF527 /* ProgressHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHomeView.swift; sourceTree = "<group>"; };
+		E3152799C7D9F702D57153A4 /* StudyLimiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyLimiter.swift; sourceTree = "<group>"; };
+		EA05BFF4214EC39D1046765B /* HishoCardTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HishoCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8EFE1C769EB8342CD38C14 /* CardDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDefinition.swift; sourceTree = "<group>"; };
+		F5E996130C387E32157C1535 /* HintTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTemplates.swift; sourceTree = "<group>"; };
+		F789619E17A4C269CBC1A820 /* FactsCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsCatalog.swift; sourceTree = "<group>"; };
+		F818FD6EEBB865883617AC9F /* EntitlementStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementStore.swift; sourceTree = "<group>"; };
+		F8ADA7778C1210DD813D4527 /* deck-jitsumu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-jitsumu.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		027A73B2A8C23D29961B2AEE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04B817574B1A4672DB12AC31 /* HishoCardApp.swift */,
+				755D25C811E4B3A0E15C4051 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		25B5680DC730D7D666118351 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				72B9F10ADB482A976B0DC3FA /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		25C1D7E25E488653E1F4E246 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				025AC845AA7E03074C46F752 /* AppSettingsStore.swift */,
+				1817197D613C796275C55837 /* CardProgress.swift */,
+				1934EC7B0CEE1164D77BC31B /* DeckRepository.swift */,
+				E3152799C7D9F702D57153A4 /* StudyLimiter.swift */,
+				E0E92DF7D7444ABBFA3CFB79 /* StudyQueueBuilder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A578A2121DC9321AF703AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E5C0464D965944AD846532A /* Assets.xcassets */,
+				40D1A0396CCC13735920120B /* deck */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40D1A0396CCC13735920120B /* deck */ = {
+			isa = PBXGroup;
+			children = (
+				F8ADA7778C1210DD813D4527 /* deck-jitsumu.json */,
+				14F8313176E9DB99E5DCB29B /* deck-keigo.json */,
+				7A31EE1AF21D95F899F40C8E /* deck-manner.json */,
+				7D539F7A4D50A4EB7309A423 /* facts.json */,
+			);
+			path = deck;
+			sourceTree = "<group>";
+		};
+		4490829B72418772B1554A68 /* HishoCard */ = {
+			isa = PBXGroup;
+			children = (
+				E0F6779B756A5880C1914E1C /* Info.plist */,
+				027A73B2A8C23D29961B2AEE /* App */,
+				6DFADFD1C368DB36035428DE /* Deck */,
+				9A9049886DA96E33DC8BCC9F /* Features */,
+				C11D850CCFBED55F2D735CEF /* HintTemplates */,
+				25C1D7E25E488653E1F4E246 /* Models */,
+				2A578A2121DC9321AF703AFD /* Resources */,
+				4F353F16403A7E51F3311C9B /* Scheduler */,
+				4C52A5CAF508CA3DF93BC5E0 /* Store */,
+			);
+			path = HishoCard;
+			sourceTree = "<group>";
+		};
+		49A35557E0EF5F2D88578102 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				3FB6777CC5ED2A6548FA4CDE /* LearnCardView.swift */,
+				DF7AD183360748562A49CE77 /* LearnFlowView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		4C52A5CAF508CA3DF93BC5E0 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				F818FD6EEBB865883617AC9F /* EntitlementStore.swift */,
+				E06CE0FEDA642C901436B01C /* ProductIDs.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		4F353F16403A7E51F3311C9B /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				5813EA25C8369ECEE6A20842 /* ExamPace.swift */,
+				3D91291944F11C9119A1D407 /* HintStateMachine.swift */,
+				9A2CD3CAD06CF569230BFC87 /* Scheduler.swift */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		6DFADFD1C368DB36035428DE /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				ED8EFE1C769EB8342CD38C14 /* CardDefinition.swift */,
+				98BDC69D8337C0216C1C2B4A /* DeckLoader.swift */,
+				A10E9941BDC1ACF7B6BFC375 /* DeckValidator.swift */,
+				F789619E17A4C269CBC1A820 /* FactsCatalog.swift */,
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
+		7820FEE805C525ED8619C2CB /* HishoCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				676925C9B6967719F182A221 /* DeckCompatibilityTests.swift */,
+				3E406BBA6D21EDA4313A1134 /* DeckSchemaTests.swift */,
+				31EED016A7895FA7298EEE4F /* ExamPaceTests.swift */,
+				1CF43360D94BBE00EFA1F699 /* FactsCrossCheckTests.swift */,
+				C604C1DF9FB552343AB76D6F /* HintStateMachineTests.swift */,
+				C417651A62F6C920545F54E8 /* HintTemplatePreviewExportTests.swift */,
+				764F1DC29D0D38B392D17C7C /* SchedulerTests.swift */,
+				BDE9457E8221895FD8FC7537 /* StudyLimiterTests.swift */,
+				131279155028FE4DFE788731 /* StudyQueueBuilderTests.swift */,
+			);
+			path = HishoCardTests;
+			sourceTree = "<group>";
+		};
+		8769E411C1CBC1DF38795340 = {
+			isa = PBXGroup;
+			children = (
+				4490829B72418772B1554A68 /* HishoCard */,
+				7820FEE805C525ED8619C2CB /* HishoCardTests */,
+				C88D2EA782BE460D1FCF6685 /* HishoCardUITests */,
+				CD2EF0315022D77269A19380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920B0DCA5647B48FD2352732 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				8D464AB675CCA1D2FABE9BFA /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		9A9049886DA96E33DC8BCC9F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				49A35557E0EF5F2D88578102 /* Learn */,
+				AA64CC45D8CB69D7E45723EB /* Paywall */,
+				D1B310F095CF8DCECAB36F1C /* Progress */,
+				25B5680DC730D7D666118351 /* Settings */,
+				920B0DCA5647B48FD2352732 /* Today */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AA64CC45D8CB69D7E45723EB /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				1BAAAA92B8978F00C6FAC36D /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		C11D850CCFBED55F2D735CEF /* HintTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				B2988752DA0B6DB1A88CF75E /* CardTheme.swift */,
+				6EBA1EDA62D091F2219E2F0B /* FlameShape.swift */,
+				2D1E1D7E44E4F16B57538FC8 /* HintImageView.swift */,
+				F5E996130C387E32157C1535 /* HintTemplates.swift */,
+			);
+			path = HintTemplates;
+			sourceTree = "<group>";
+		};
+		C88D2EA782BE460D1FCF6685 /* HishoCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3BCCF9C3020A9AD1F2402D /* LearnFlowUITests.swift */,
+				3616510766C14FA69DC1599D /* StoreScreenshotTests.swift */,
+			);
+			path = HishoCardUITests;
+			sourceTree = "<group>";
+		};
+		CD2EF0315022D77269A19380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FA63388058C088F766E8D /* HishoCard.app */,
+				EA05BFF4214EC39D1046765B /* HishoCardTests.xctest */,
+				B038CAADC85CB5FA8AD078E8 /* HishoCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1B310F095CF8DCECAB36F1C /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				E299717C6D3F0DB287DFF527 /* ProgressHomeView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8334B1BCD53F9AC9C005772E /* HishoCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402EAC7B8438C502EAC4C0D4 /* Build configuration list for PBXNativeTarget "HishoCardUITests" */;
+			buildPhases = (
+				3DD2475431634B8D2F5CDA60 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D11FC8D01C1BCC53C42B131 /* PBXTargetDependency */,
+			);
+			name = HishoCardUITests;
+			packageProductDependencies = (
+			);
+			productName = HishoCardUITests;
+			productReference = B038CAADC85CB5FA8AD078E8 /* HishoCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A0EB1A7E9BBC094A622B921A /* HishoCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1A5F501C0DCE363E63DB65E /* Build configuration list for PBXNativeTarget "HishoCardTests" */;
+			buildPhases = (
+				94E19B3E128CB08C013BD95F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7813EAE106E8705465C02AEE /* PBXTargetDependency */,
+			);
+			name = HishoCardTests;
+			packageProductDependencies = (
+			);
+			productName = HishoCardTests;
+			productReference = EA05BFF4214EC39D1046765B /* HishoCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3BD710BFFA567AEAAB01DDA /* HishoCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47247B12C17B7406CDB02863 /* Build configuration list for PBXNativeTarget "HishoCard" */;
+			buildPhases = (
+				A7AAA9C0D34965D725094BE2 /* Sources */,
+				9AFDC9E987920FA933C209C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HishoCard;
+			packageProductDependencies = (
+			);
+			productName = HishoCard;
+			productReference = DD9FA63388058C088F766E8D /* HishoCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		968E0FA3FEFC0D87AC480763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8334B1BCD53F9AC9C005772E = {
+						TestTargetID = E3BD710BFFA567AEAAB01DDA;
+					};
+				};
+			};
+			buildConfigurationList = C9AC570044DB0244F789F86E /* Build configuration list for PBXProject "HishoCard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8769E411C1CBC1DF38795340;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD2EF0315022D77269A19380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3BD710BFFA567AEAAB01DDA /* HishoCard */,
+				A0EB1A7E9BBC094A622B921A /* HishoCardTests */,
+				8334B1BCD53F9AC9C005772E /* HishoCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AFDC9E987920FA933C209C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232FE5354B43DC4F0BA7A19A /* Assets.xcassets in Resources */,
+				321C7B0F010825F5B1281EE7 /* deck-jitsumu.json in Resources */,
+				7972505954976B48A0E6A4F6 /* deck-keigo.json in Resources */,
+				25ABFF6D437855CFECDF5941 /* deck-manner.json in Resources */,
+				7976F74FC0DAEAE9C1A81D93 /* facts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD2475431634B8D2F5CDA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EB2E78D61E125A8FCB86AF /* LearnFlowUITests.swift in Sources */,
+				C9DE3EF0A45DBC6A8CB31FF4 /* StoreScreenshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E19B3E128CB08C013BD95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB82B5194A93FD72384E97D /* DeckCompatibilityTests.swift in Sources */,
+				1AED6823520A0C41B81E0DE5 /* DeckSchemaTests.swift in Sources */,
+				F1D84FCC05552E6AE45E2052 /* ExamPaceTests.swift in Sources */,
+				89FEDC6CA5A732BFB55FBC0E /* FactsCrossCheckTests.swift in Sources */,
+				CA00F3D82CFC474F40BD918C /* HintStateMachineTests.swift in Sources */,
+				3993D71C7DEBCC3D070C1ED0 /* HintTemplatePreviewExportTests.swift in Sources */,
+				ECB11AC4684133FCB2AE1166 /* SchedulerTests.swift in Sources */,
+				012A80FC0547BF4572125598 /* StudyLimiterTests.swift in Sources */,
+				8483BC0F40964A4BB8E19FCA /* StudyQueueBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AAA9C0D34965D725094BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDF0048611848C503FD22C /* AppSettingsStore.swift in Sources */,
+				16F1DC6B1C8F1D3D3F8992C1 /* CardDefinition.swift in Sources */,
+				3C02E8692DF7B2447DF4EF64 /* CardProgress.swift in Sources */,
+				7312092B02BAFB893523101A /* CardTheme.swift in Sources */,
+				8C354ACFA19BBD96035E389B /* DeckLoader.swift in Sources */,
+				304DFA1AF99DE7CDAF79E8F7 /* DeckRepository.swift in Sources */,
+				CB3D9894E949A98DBC55D0CA /* DeckValidator.swift in Sources */,
+				BA73D9CEBBD9A193D1E94521 /* EntitlementStore.swift in Sources */,
+				81F5E942AF8DB851EE34F723 /* ExamPace.swift in Sources */,
+				5BF291AA01F048F056A0822B /* FactsCatalog.swift in Sources */,
+				4EB8C6A4B0C5A01BF23FAF25 /* FlameShape.swift in Sources */,
+				3220D0A71343C0DCEFA51AA8 /* HintImageView.swift in Sources */,
+				B16CDE883314E02895A4642B /* HintStateMachine.swift in Sources */,
+				70288294B69EAFF1FE277F46 /* HintTemplates.swift in Sources */,
+				996FE3B4AA7BDE2051FFAA0B /* HishoCardApp.swift in Sources */,
+				1EABACA9FEB4B3480786F49F /* LearnCardView.swift in Sources */,
+				696D7BF05887397BE4A43092 /* LearnFlowView.swift in Sources */,
+				30FE4DE67A18B61946ABAF48 /* PaywallView.swift in Sources */,
+				3C265C4A782C0134D8775AE7 /* ProductIDs.swift in Sources */,
+				F1C2645A32773382E59CE5C6 /* ProgressHomeView.swift in Sources */,
+				822C9CEF59B21717D70D5E96 /* RootView.swift in Sources */,
+				4F7D48FAF0B76653A39E5A79 /* Scheduler.swift in Sources */,
+				3262B5575675A6371BD8FB00 /* SettingsView.swift in Sources */,
+				881F76CC63DCB94699D9BCA1 /* StudyLimiter.swift in Sources */,
+				8ECE9A757F80B3893CB1AF3B /* StudyQueueBuilder.swift in Sources */,
+				86956BA1241FD1BF254B91D9 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D11FC8D01C1BCC53C42B131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3BD710BFFA567AEAAB01DDA /* HishoCard */;
+			targetProxy = 40024634606D3FC5CE07A492 /* PBXContainerItemProxy */;
+		};
+		7813EAE106E8705465C02AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3BD710BFFA567AEAAB01DDA /* HishoCard */;
+			targetProxy = B177302317D6002AF2324B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00D6A3CC785CC323E147CD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.hishocard.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HishoCard.app/HishoCard";
+			};
+			name = Debug;
+		};
+		352BFCF4E87E6106AEFE72C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		4FF9ABFF9A8A727B9BD8946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.hishocard.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HishoCard.app/HishoCard";
+			};
+			name = Release;
+		};
+		6D0CB023D52BA09DCF8963FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HishoCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.hishocard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E4774599300F0EF0530ACF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.hishocard.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HishoCard;
+			};
+			name = Debug;
+		};
+		8E317A7AE3D5957310570702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HishoCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.hishocard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EB69664E6B2D8570AD4FF74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.hishocard.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HishoCard;
+			};
+			name = Release;
+		};
+		FD08C811E750D97AA262AB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402EAC7B8438C502EAC4C0D4 /* Build configuration list for PBXNativeTarget "HishoCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4774599300F0EF0530ACF9 /* Debug */,
+				EB69664E6B2D8570AD4FF74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47247B12C17B7406CDB02863 /* Build configuration list for PBXNativeTarget "HishoCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0CB023D52BA09DCF8963FE /* Debug */,
+				8E317A7AE3D5957310570702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C9AC570044DB0244F789F86E /* Build configuration list for PBXProject "HishoCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD08C811E750D97AA262AB2D /* Debug */,
+				352BFCF4E87E6106AEFE72C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1A5F501C0DCE363E63DB65E /* Build configuration list for PBXNativeTarget "HishoCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D6A3CC785CC323E147CD32 /* Debug */,
+				4FF9ABFF9A8A727B9BD8946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 968E0FA3FEFC0D87AC480763 /* Project object */;
+}
